@@ -1,0 +1,13 @@
+cd "C:\Users\PC\.gemini\antigravity\scratch\hieu-portfolio"
+
+# 1. Initialize git and commit
+git init
+git add .
+git commit -m "feat: bilingual portfolio for Hieu Pham Cong"
+
+# 2. Link your GitHub repository
+git branch -M main
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/<REPO_NAME>.git
+
+# 3. Push to GitHub
+git push -u origin main
